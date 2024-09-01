@@ -1,5 +1,5 @@
 "use client";
-import 'tailwindcss/tailwind.css';
+
 import { useState } from 'react';
 
 type SquareProps = {
@@ -43,7 +43,7 @@ export default function Board() {
     <>
     <div className='bg-black h-screen overflow-hidden'>
     <div className="bg-transparent text-purple-950 rounded-md p-2
-                 mx-auto w-full max-w-xs text-center font-bold text-4xl
+                 mx-auto w-full max-w-xs text-center font-bold
                  mt-32 md:mt-12 ">
   TIC TAC TOE
 </div>
